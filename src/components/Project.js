@@ -15,6 +15,7 @@ export default function Project() {
                 <a
                   href="https://aisforartisan.org/"
                   className="image"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <img src={aisforartisanHomeImage} alt="" />
@@ -45,6 +46,7 @@ export default function Project() {
                 <a
                   href="https://rplogistics.com.py/"
                   className="image"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <img src={rplogisticsHomeImage} alt="" />
