@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/images/banner.jpeg";
+import bannerImage from "../assets/images/banner.jpeg";
 
 export default function About() {
   return (
@@ -7,7 +7,7 @@ export default function About() {
       <div id="main">
         <section id="one">
           <div className="image main" data-position="center">
-            <img src={image} alt="Sky Full of Stars" />
+            <img src={bannerImage} alt="Sky Full of Stars" />
           </div>
           <div className="container">
             <header className="major">
