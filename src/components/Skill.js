@@ -3,7 +3,7 @@ import {
   DiHtml5,
   DiCss3,
   DiSass,
-  DiJavascript,
+  DiJavascript1,
   DiNodejsSmall,
   DiReact,
   DiJqueryLogo,
@@ -51,7 +51,7 @@ export default function Skill() {
                 <DiSass style={devIconStyle} /> SASS
               </li>
               <li>
-                <DiJavascript style={devIconStyle} /> JavaScript
+                <DiJavascript1 style={devIconStyle} /> JavaScript
               </li>
               <li>
                 <DiNodejsSmall style={devIconStyle} /> NodeJS
@@ -93,8 +93,7 @@ export default function Skill() {
                 <DiLinux style={devIconStyle} /> Bash
               </li>
               <li>
-                <DiWebplatform style={devIconStyle} /> API / SOAP / REST /
-                RESTful
+                <DiWebplatform style={devIconStyle} /> API / REST / RESTful
               </li>
               <li>
                 <DiOpenshift style={devIconStyle} /> OpenShift
