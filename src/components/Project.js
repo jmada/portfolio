@@ -22,8 +22,22 @@ export default function Project() {
                 <div className="inner">
                   <h4>A is for Artisan</h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                    A is for Artisan is a non profit organization based in
+                    Washington DC that works to celebrate and promote Latin
+                    American craft.
+                  </p>
+
+                  <h5>Technologies I've used: </h5>
+                  <ul>
+                    <li>Semantic HTML5</li>
+                    <li>CSS3</li>
+                    <li>Bulma CSS Framework</li>
+                    <li>WordPress</li>
+                  </ul>
+                  <p>
+                    WordPress was requested by the client. He wanted the ability
+                    to change, add and remove content on his site without the
+                    need of a developer.
                   </p>
                 </div>
               </article>
@@ -38,8 +52,19 @@ export default function Project() {
                 <div className="inner">
                   <h4>RPLogistics</h4>
                   <p>
-                    Integer eu ante ornare amet commetus vestibulum blandit
-                    integer in curae ac faucibus integer adipiscing ornare amet.
+                    RPLogistics is a company based in Paraguay that provices
+                    logistics services. Also provices rent of forklift, cranes
+                    and freight services.
+                  </p>
+
+                  <h5>Technologies I've used: </h5>
+                  <ul>
+                    <li>WordPress</li>
+                  </ul>
+                  <p>
+                    WordPress were requested by the client. He wanted the
+                    ability to change, add and remove content on his site
+                    without the need of a developer.
                   </p>
                 </div>
               </article>
