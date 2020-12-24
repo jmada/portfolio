@@ -54,9 +54,6 @@ export default function Skill() {
                 <DiJavascript1 style={devIconStyle} /> JavaScript
               </li>
               <li>
-                <DiNodejsSmall style={devIconStyle} /> NodeJS
-              </li>
-              <li>
                 <DiReact style={devIconStyle} /> ReactJS
               </li>
               <li>
