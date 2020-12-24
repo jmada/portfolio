@@ -5,16 +5,13 @@ export default function Header() {
   return (
     <section id="header">
       <header>
-        <span class="image avatar">
-          <img src="images/avatar.jpg" alt="" />
-        </span>
         <h1 id="logo">
           <a href="#">Juan Paredes</a>
         </h1>
         <p>
-          A Full Stack Developer
+          I build things
           <br />
-          and a Passionate about Development
+          for the web.
         </p>
       </header>
       <nav id="nav">
@@ -42,25 +39,25 @@ export default function Header() {
         </ul>
       </nav>
       <footer>
-        <ul class="icons">
+        <ul className="icons">
           <li>
-            <a href="#" class="icon solid fa-envelope">
-              <span class="label">Email</span>
+            <a href="#" className="icon solid fa-envelope">
+              <span className="label">Email</span>
             </a>
           </li>
           <li>
-            <a href="#" class="icon brands fa-github">
-              <span class="label">Github</span>
+            <a href="#" className="icon brands fa-github">
+              <span className="label">Github</span>
             </a>
           </li>
           <li>
-            <a href="#" class="icon brands fa-linkedin">
-              <span class="label">LinkedIn</span>
+            <a href="#" className="icon brands fa-linkedin">
+              <span className="label">LinkedIn</span>
             </a>
           </li>
           <li>
-            <a href="#" class="icon solid fa-download">
-              <span class="label">Resume</span>
+            <a href="#" className="icon solid fa-download">
+              <span className="label">Resume</span>
             </a>
           </li>
         </ul>
