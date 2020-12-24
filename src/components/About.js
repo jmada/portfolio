@@ -1,15 +1,16 @@
 import React from "react";
+import image from "../assets/images/banner.jpeg";
 
 export default function About() {
   return (
     <div id="wrapper">
       <div id="main">
         <section id="one">
-          <div class="image main" data-position="center">
-            <img src="images/banner.jpg" alt="" />
+          <div className="image main" data-position="center">
+            <img src={image} alt="Sky Full of Stars" />
           </div>
-          <div class="container">
-            <header class="major">
+          <div className="container">
+            <header className="major">
               <h2>Hello there!</h2>
               <p>
                 My name is Juan Paredes and
