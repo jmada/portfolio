@@ -33,6 +33,7 @@ export default function Project() {
                     <li>Semantic HTML5</li>
                     <li>CSS3</li>
                     <li>Bulma CSS Framework</li>
+                    <li>Gulp</li>
                     <li>WordPress</li>
                   </ul>
                   <p>
