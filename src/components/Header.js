@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
   return (
@@ -41,23 +44,27 @@ export default function Header() {
       <footer>
         <ul className="icons">
           <li>
-            <a href="#" className="icon solid fa-envelope">
+            <a href="#" className="icon">
+              <FontAwesomeIcon icon={faEnvelope} />
               <span className="label">Email</span>
             </a>
           </li>
           <li>
-            <a href="#" className="icon brands fa-github">
+            <a href="#" className="icon">
+              <FontAwesomeIcon icon={faGithub} />
               <span className="label">Github</span>
             </a>
           </li>
           <li>
-            <a href="#" className="icon brands fa-linkedin">
+            <a href="#" className="icon">
+              <FontAwesomeIcon icon={faLinkedin} />
               <span className="label">LinkedIn</span>
             </a>
           </li>
           <li>
-            <a href="#" className="icon solid fa-download">
-              <span className="label">Resume</span>
+            <a href="#" className="icon">
+              <FontAwesomeIcon icon={faDownload} />
+              <span className="label">Download Resume</span>
             </a>
           </li>
         </ul>
