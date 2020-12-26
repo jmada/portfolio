@@ -1,33 +1,33 @@
 import React from "react";
 
-import About from "../components/About";
-import Skill from "../components/Skill";
-import Project from "../components/Project";
-import Contact from "../components/Contact";
+import AboutPage from "../pages/About";
+import SkillPage from "../pages/Skill";
+import ProjectPage from "../pages/Project";
+import ContactPage from "../pages/Contact";
 
 export default [
   {
     path: "/",
     exact: true,
-    component: () => <About />,
+    component: () => <AboutPage />,
     protected: null,
   },
   {
     path: "/skill",
     exact: true,
-    component: () => <Skill />,
+    component: () => <SkillPage />,
     protected: null,
   },
   {
     path: "/project",
     exact: true,
-    component: () => <Project />,
+    component: () => <ProjectPage />,
     protected: null,
   },
   {
     path: "/contact",
     exact: true,
-    component: () => <Contact />,
+    component: () => <ContactPage />,
     protected: null,
   },
 ];
