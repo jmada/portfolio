@@ -5,13 +5,9 @@ import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
-  function hideHeader() {
-    document.body.classList.remove("header-visible");
-  }
-
-  function handleClick() {
-    hideHeader();
-  }
+  const handleClick = () => {
+    document.body.classList.toggle("header-visible");
+  };
 
   return (
     <section id="header">
