@@ -5,6 +5,14 @@ import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 export default function Header() {
+  function hideHeader() {
+    document.body.classList.remove("header-visible");
+  }
+
+  function handleClick() {
+    hideHeader();
+  }
+
   return (
     <section id="header">
       <header>
@@ -18,7 +26,7 @@ export default function Header() {
         </p>
       </header>
       <nav id="nav">
-        <ul>
+        <ul onClick={handleClick}>
           <li>
             <NavLink to="/" exact activeClassName="active">
               About
