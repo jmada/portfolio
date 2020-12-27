@@ -22,14 +22,6 @@ export default function Contact() {
                   />
                 </div>
                 <div className="col-12">
-                  <input
-                    type="text"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div className="col-12">
                   <textarea
                     name="message"
                     id="message"
