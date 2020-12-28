@@ -3,7 +3,14 @@ import { useSpring, animated } from "react-spring";
 import bannerImage from "../assets/images/banner.jpeg";
 
 export default function About() {
-  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+  const fadeIn = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: {
+      delay: 4000,
+      duration: 800,
+    },
+  });
 
   return (
     <div id="wrapper">

@@ -4,7 +4,14 @@ import aisforartisanHomeImage from "../assets/images/a_is_for_artisan_home.png";
 import rplogisticsHomeImage from "../assets/images/rplogistics_home.png";
 
 export default function Project() {
-  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+  const fadeIn = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: {
+      delay: 4000,
+      duration: 800,
+    },
+  });
 
   return (
     <div id="wrapper">

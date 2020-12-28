@@ -2,7 +2,14 @@ import React from "react";
 import { useSpring, animated } from "react-spring";
 
 export default function Contact() {
-  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+  const fadeIn = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: {
+      delay: 4000,
+      duration: 800,
+    },
+  });
 
   return (
     <div id="wrapper">

@@ -25,7 +25,7 @@ import {
 export default function Skill() {
   const devIconStyle = {
     position: "absolute",
-    fill: "#4acaa8",
+    fill: "#1C273B",
     height: "2.5em",
     width: "2.5em",
     top: "0",
@@ -33,7 +33,14 @@ export default function Skill() {
     lineHeight: "2.5em",
   };
 
-  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+  const fadeIn = useSpring({
+    opacity: 1,
+    from: { opacity: 0 },
+    config: {
+      delay: 4000,
+      duration: 800,
+    },
+  });
 
   return (
     <div id="wrapper">
