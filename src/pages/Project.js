@@ -1,13 +1,16 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 import aisforartisanHomeImage from "../assets/images/a_is_for_artisan_home.png";
 import rplogisticsHomeImage from "../assets/images/rplogistics_home.png";
 
 export default function Project() {
+  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+
   return (
     <div id="wrapper">
       <div id="main">
         <section id="three">
-          <div className="container">
+          <animated.div style={fadeIn} className="container">
             <h3>My Latest Work</h3>
             <p>Some things I've built:</p>
             <div className="features">
@@ -72,7 +75,7 @@ export default function Project() {
                 </div>
               </article>
             </div>
-          </div>
+          </animated.div>
         </section>
       </div>
     </div>

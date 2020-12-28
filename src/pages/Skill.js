@@ -1,4 +1,5 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 import {
   DiHtml5,
   DiCss3,
@@ -32,11 +33,13 @@ export default function Skill() {
     lineHeight: "2.5em",
   };
 
+  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+
   return (
     <div id="wrapper">
       <div id="main">
         <section id="two">
-          <div className="container">
+          <animated.div style={fadeIn} className="container">
             <h3>Technological Skills</h3>
             <p>Some technologies I've worked with: </p>
             <ul className="feature-icons">
@@ -98,7 +101,7 @@ export default function Skill() {
                 <DiDocker style={devIconStyle} /> Docker
               </li>
             </ul>
-          </div>
+          </animated.div>
         </section>
       </div>
     </div>

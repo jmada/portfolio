@@ -1,11 +1,14 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 import bannerImage from "../assets/images/banner.jpeg";
 
 export default function About() {
+  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+
   return (
     <div id="wrapper">
       <div id="main">
-        <section id="one">
+        <animated.section style={fadeIn} id="one">
           <div className="image main" data-position="center">
             <img src={bannerImage} alt="Sky Full of Stars" />
           </div>
@@ -26,7 +29,7 @@ export default function About() {
               reading and working on amazing projects.
             </p>
           </div>
-        </section>
+        </animated.section>
       </div>
     </div>
   );

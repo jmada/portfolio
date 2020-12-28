@@ -1,11 +1,14 @@
 import React from "react";
+import { useSpring, animated } from "react-spring";
 
 export default function Contact() {
+  const fadeIn = useSpring({ opacity: 1, from: { opacity: 0 } });
+
   return (
     <div id="wrapper">
       <div id="main">
         <section id="four">
-          <div className="container">
+          <animated.div style={fadeIn} className="container">
             <h3>Get in Touch</h3>
             <p>If you want to contact me, feel free to shot me an email!</p>
             <form method="post" action="#">
@@ -45,7 +48,7 @@ export default function Contact() {
                 </div>
               </div>
             </form>
-          </div>
+          </animated.div>
         </section>
       </div>
     </div>
