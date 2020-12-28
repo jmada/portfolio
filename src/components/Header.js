@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import useBreakpoints from "../hooks/useBreakpoints";
 
 export default function Header() {
-  const breakpoints = useBreakpoints();
+  const [isWindowsSizeMediumOrLess, setIsWindowsSizeMediumOrLess] = useState(
+    false
+  );
+
+  useEffect(() => {
+    const updateIsWindowsSizeMediumOrLess = () => {
+      setIsWindowsSizeMediumOrLess(window.innerWidth < 1025);
+    };
+
+    window.addEventListener("resize", updateIsWindowsSizeMediumOrLess);
+    return () => {
+      window.removeEventListener("resize", updateIsWindowsSizeMediumOrLess);
+    };
+  }, []);
 
   const handleClick = () => {
-    if (breakpoints.isXlarge || breakpoints.isSmall || breakpoints.isMedium) {
+    if (isWindowsSizeMediumOrLess) {
       document.body.classList.toggle("header-visible");
     }
   };
@@ -27,7 +39,7 @@ export default function Header() {
         </p>
       </header>
       <nav id="nav">
-        <ul onClick={() => handleClick()}>
+        <ul onClick={handleClick}>
           <li>
             <NavLink to="/" exact activeClassName="active">
               About
