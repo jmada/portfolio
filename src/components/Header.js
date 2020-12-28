@@ -46,13 +46,13 @@ export default function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/skill" exact activeClassName="active">
-              Skill
+            <NavLink to="/skills" exact activeClassName="active">
+              Skills
             </NavLink>
           </li>
           <li>
-            <NavLink to="/project" exact activeClassName="active">
-              Project
+            <NavLink to="/projects" exact activeClassName="active">
+              Projects
             </NavLink>
           </li>
           <li>

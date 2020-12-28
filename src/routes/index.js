@@ -13,13 +13,13 @@ export default [
     protected: null,
   },
   {
-    path: "/skill",
+    path: "/skills",
     exact: true,
     component: () => <SkillPage />,
     protected: null,
   },
   {
-    path: "/project",
+    path: "/projects",
     exact: true,
     component: () => <ProjectPage />,
     protected: null,
