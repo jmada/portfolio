@@ -3,10 +3,15 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faDownload } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import useBreakpoints from "../hooks/useBreakpoints";
 
 export default function Header() {
+  const breakpoints = useBreakpoints();
+
   const handleClick = () => {
-    document.body.classList.toggle("header-visible");
+    if (breakpoints.isXlarge || breakpoints.isSmall || breakpoints.isMedium) {
+      document.body.classList.toggle("header-visible");
+    }
   };
 
   return (
@@ -22,7 +27,7 @@ export default function Header() {
         </p>
       </header>
       <nav id="nav">
-        <ul onClick={handleClick}>
+        <ul onClick={() => handleClick()}>
           <li>
             <NavLink to="/" exact activeClassName="active">
               About
