@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <div id="titleBar">
-      <a href="#" className="toggle" onClick={handleClick}>
+      <a href="#" className="toggle" onClick={() => handleClick()}>
         <FontAwesomeIcon icon={faBars} />
       </a>
       <span className="title">
