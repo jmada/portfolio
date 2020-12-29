@@ -5,7 +5,7 @@ import SkillPage from "../pages/Skill";
 import ProjectPage from "../pages/Project";
 import ContactPage from "../pages/Contact";
 
-export default [
+const routes = [
   {
     path: "/",
     exact: true,
@@ -31,3 +31,5 @@ export default [
     protected: null,
   },
 ];
+
+export default routes;
