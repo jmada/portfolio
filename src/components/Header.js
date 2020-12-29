@@ -16,10 +16,12 @@ export default function Header() {
     false
   );
 
+  const updateIsWindowsSizeMediumOrLess = () => {
+    setIsWindowsSizeMediumOrLess(window.innerWidth < 1025);
+  };
+
   useEffect(() => {
-    const updateIsWindowsSizeMediumOrLess = () => {
-      setIsWindowsSizeMediumOrLess(window.innerWidth < 1025);
-    };
+    updateIsWindowsSizeMediumOrLess();
 
     window.addEventListener("resize", updateIsWindowsSizeMediumOrLess);
     return () => {
