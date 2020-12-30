@@ -9,11 +9,13 @@ export default function Navbar() {
 
   return (
     <div id="titleBar">
-      <a href="#" className="toggle" onClick={() => handleClick()}>
+      <span className="toggle" onClick={() => handleClick()}>
         <FontAwesomeIcon icon={faBars} />
-      </a>
+      </span>
       <span className="title">
-        <a href="#">Juan Paredes</a>
+        <a href="/" rel="noopener noreferrer">
+          Juan Paredes
+        </a>
       </span>
     </div>
   );

@@ -39,7 +39,9 @@ export default function Header() {
     <section id="header">
       <header>
         <h1 id="logo">
-          <a href="#">Juan Paredes</a>
+          <a href="/" rel="noopener noreferrer">
+            Juan Paredes
+          </a>
         </h1>
         <p>
           I build things
@@ -74,7 +76,11 @@ export default function Header() {
       <footer>
         <ul className="icons">
           <li>
-            <a href={`mailto:${REACT_APP_PERSONAL_EMAIL}`} className="icon">
+            <a
+              href={`mailto:${REACT_APP_PERSONAL_EMAIL}`}
+              className="icon"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon icon={faEnvelope} />
               <span className="label">Email</span>
             </a>
