@@ -155,7 +155,7 @@ Project Link: [https://github.com/jmada/portfolio](https://github.com/jmada/port
 ## Acknowledgements
 
 - [FontAwesome](https://fontawesome.com/)
-- [Devicon](hhttps://devicon.dev/)
+- [Devicon](https://devicon.dev/)
 - [flaticon](https://www.flaticon.com/)
 - [EmailJS](https://www.emailjs.com/)
 - [SweetAlert2](https://sweetalert2.github.io/)
