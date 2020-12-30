@@ -165,15 +165,15 @@ Project Link: [https://github.com/jmada/portfolio](https://github.com/jmada/port
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/jmada/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/jmada/repo/graphs/contributors
+[contributors-url]: https://github.com/jmada/portfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/jmada/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/jmada/repo/network/members
+[forks-url]: https://github.com/jmada/portfolio/network/members
 [stars-shield]: https://img.shields.io/github/stars/jmada/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/jmada/repo/stargazers
+[stars-url]: https://github.com/jmada/portfolio/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jmada/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/jmada/repo/issues
+[issues-url]: https://github.com/jmada/portfolio/issues
 [license-shield]: https://img.shields.io/github/license/jmada/repo.svg?style=for-the-badge
-[license-url]: https://github.com/jmada/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/jmada/portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jmada
 [product-screenshot]: src/assets/images/projects/personal_website_home.png
