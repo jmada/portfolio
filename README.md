@@ -110,7 +110,8 @@ To get a local copy up and running follow these simple steps.
    ```sh
    npm start
    ```
-   <!-- USAGE EXAMPLES -->
+
+<!-- USAGE EXAMPLES -->
 
 ## Usage
 
@@ -175,5 +176,5 @@ Project Link: [https://github.com/jmada/portfolio](https://github.com/jmada/port
 [license-shield]: https://img.shields.io/github/license/jmada/repo.svg?style=for-the-badge
 [license-url]: https://github.com/jmada/portfolio/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jmada
+[linkedin-url]: https://www.linkedin.com/in/jmdparedes/
 [product-screenshot]: src/assets/images/projects/personal_website_home.png
