@@ -8,9 +8,9 @@ const useForm = (callback, validate) => {
 
   useEffect(() => {
     if (Object.keys(errors).length === 0 && isSubmitting && isSent) {
-      callback();
+      callback(); // Can't use callback() as dependency in this usseEffect because it's gonna cause infinite recursion
     }
-  }, [errors]);
+  }, [errors, isSubmitting, isSent]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleSubmit = (event) => {
     if (event) event.preventDefault();
