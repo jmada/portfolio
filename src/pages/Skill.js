@@ -51,10 +51,10 @@ export default function Skill() {
             <p>Some technologies I've worked with: </p>
             <ul className="feature-icons">
               <li>
-                <DiHtml5 style={devIconStyle} /> HTML
+                <DiHtml5 style={devIconStyle} /> HTML5
               </li>
               <li>
-                <DiCss3 style={devIconStyle} /> CSS
+                <DiCss3 style={devIconStyle} /> CSS3
               </li>
               <li>
                 <DiSass style={devIconStyle} /> SASS
