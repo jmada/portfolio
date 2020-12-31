@@ -25,15 +25,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - name: Create env file
-    - run: touch .env
-    - run: echo REACT_APP_PERSONAL_EMAIL=${{ secrets.REACT_APP_PERSONAL_EMAIL }} >> .env
-    - run: echo REACT_APP_GITHUB_URL=${{ secrets.REACT_APP_GITHUB_URL }} >> .env
-    - run: echo REACT_APP_LINKEDIN_URL=${{ secrets.REACT_APP_LINKEDIN_URL }} >> .env
-    - run: echo REACT_APP_RESUME_URL=${{ secrets.REACT_APP_RESUME_URL }} >> .env
-    - run: echo REACT_APP_EMAILJS_SERVICE_ID=${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }} >> .env
-    - run: echo REACT_APP_EMAILJS_TEMPLATE_ID=${{ secrets.REACT_APP_EMAILJS_TEMPLATE_ID }} >> .env
-    - run: echo REACT_APP_EMAILJS_USER_ID=${{ secrets.REACT_APP_EMAILJS_USER_ID }} >> .env
-    - run: cat .env
     - run: npm run build --if-present
-
+    env:
+        REACT_APP_PERSONAL_EMAIL: ${{ secrets.REACT_APP_PERSONAL_EMAIL }}
+        REACT_APP_GITHUB_URL: ${{ secrets.REACT_APP_GITHUB_URL }}
+        REACT_APP_LINKEDIN_URL: ${{ secrets.REACT_APP_LINKEDIN_URL }}
+        REACT_APP_RESUME_URL: ${{ secrets.REACT_APP_RESUME_URL }}
+        REACT_APP_EMAILJS_SERVICE_ID: ${{ secrets.REACT_APP_EMAILJS_SERVICE_ID }}
+        REACT_APP_EMAILJS_TEMPLATE_ID: ${{ secrets.REACT_APP_EMAILJS_TEMPLATE_ID }}
+        REACT_APP_EMAILJS_USER_ID: ${{ secrets.REACT_APP_EMAILJS_USER_ID }}
