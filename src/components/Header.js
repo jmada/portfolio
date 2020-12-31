@@ -46,7 +46,7 @@ export default function Header() {
         <p>
           I build things
           <br />
-          for the web.
+          &nbsp; for the web.
         </p>
       </header>
       <nav id="nav">

@@ -25,7 +25,7 @@ export default function About() {
               <p>
                 My name is Juan Paredes and
                 <br />
-                I'm a Full Stack Developer.
+                &nbsp; I'm a Full Stack Developer.
               </p>
             </header>
             <p>
