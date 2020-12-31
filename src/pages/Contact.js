@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 
 import useForm from "../utils/hooks/useForm";
 import validate from "../utils/validations/ContactFormRules";
+import { Redirect } from "react-router-dom";
 
 const {
   REACT_APP_EMAILJS_SERVICE_ID,
@@ -33,7 +34,7 @@ export default function Contact() {
       confirmButtonText: "Yes!",
     }).then((result) => {
       if (result.isConfirmed) {
-        window.location.reload();
+        <Redirect to="/contact" />;
       }
     });
   };
