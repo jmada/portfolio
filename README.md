@@ -16,7 +16,7 @@
     <a href="https://github.com/jmada/portfolio"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/jmada/portfolio">View Demo</a>
+    <a href="https://jmparedes.me/">View Demo</a>
   </p>
 </p>
 
