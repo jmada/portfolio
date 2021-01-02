@@ -1,29 +1,9 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
-import {
-  DiHtml5,
-  DiCss3,
-  DiSass,
-  DiJavascript1,
-  DiReact,
-  DiJqueryLogo,
-  DiGulp,
-  DiPhp,
-  DiSymfony,
-  DiComposer,
-  DiPython,
-  DiMysql,
-  DiPostgresql,
-  DiWordpress,
-  DiGit,
-  DiLinux,
-  DiWebplatform,
-  DiOpenshift,
-  DiDocker,
-} from "react-icons/di";
+import skills from "../utils/services/skills";
 
 export default function Skill() {
-  const devIconStyle = {
+  const devIcon = {
     position: "absolute",
     fill: "#1C273B",
     height: "2.5em",
@@ -50,63 +30,13 @@ export default function Skill() {
             <h3>Technological Skills</h3>
             <p>Some technologies I've worked with: </p>
             <ul className="feature-icons">
-              <li>
-                <DiHtml5 style={devIconStyle} /> HTML5
-              </li>
-              <li>
-                <DiCss3 style={devIconStyle} /> CSS3
-              </li>
-              <li>
-                <DiSass style={devIconStyle} /> SASS
-              </li>
-              <li>
-                <DiJavascript1 style={devIconStyle} /> JavaScript
-              </li>
-              <li>
-                <DiReact style={devIconStyle} /> ReactJS
-              </li>
-              <li>
-                <DiJqueryLogo style={devIconStyle} /> jQuery
-              </li>
-              <li>
-                <DiGulp style={devIconStyle} /> Gulp
-              </li>
-              <li>
-                <DiPhp style={devIconStyle} /> PHP
-              </li>
-              <li>
-                <DiSymfony style={devIconStyle} /> Symfony
-              </li>
-              <li>
-                <DiComposer style={devIconStyle} /> Composer
-              </li>
-              <li>
-                <DiPython style={devIconStyle} /> Python
-              </li>
-              <li>
-                <DiMysql style={devIconStyle} /> MySQL
-              </li>
-              <li>
-                <DiPostgresql style={devIconStyle} /> PostgreSQL
-              </li>
-              <li>
-                <DiWordpress style={devIconStyle} /> WordPress
-              </li>
-              <li>
-                <DiGit style={devIconStyle} /> Git & Github
-              </li>
-              <li>
-                <DiLinux style={devIconStyle} /> Bash
-              </li>
-              <li>
-                <DiWebplatform style={devIconStyle} /> API / REST / RESTful
-              </li>
-              <li>
-                <DiOpenshift style={devIconStyle} /> OpenShift
-              </li>
-              <li>
-                <DiDocker style={devIconStyle} /> Docker
-              </li>
+              {skills.map((skill) => {
+                return (
+                  <li key={skill.id}>
+                    <skill.icon style={devIcon} /> {skill.name}
+                  </li>
+                );
+              })}
             </ul>
           </animated.div>
         </section>
