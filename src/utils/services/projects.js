@@ -5,7 +5,7 @@ const projects = [
       href: "https://aisforartisan.org/",
     },
     image: {
-      src: "/projects/a_is_for_artisan_home.png",
+      src: "/projects/demos/a_is_for_artisan_demo.gif",
       alt: "A is for Artisan - Home Page",
     },
     title: "A is for Artisan",
@@ -46,7 +46,7 @@ const projects = [
       href: "https://rplogistics.com.py/",
     },
     image: {
-      src: "/projects/rplogistics_home.png",
+      src: "/projects/demos/rplogistics_demo.gif",
       alt: "RPLogistics - Home Page",
     },
     title: "RPLogistics",
@@ -71,7 +71,7 @@ const projects = [
       href: "https://jmparedes.me/",
     },
     image: {
-      src: "/projects/personal_website_home.png",
+      src: "/projects/demos/portfolio_demo.gif",
       alt: "Juan Paredes's Portfolio - Home Page",
     },
     title: "Juan Paredes's Portfolio",
