@@ -99,7 +99,7 @@ const projects = [
       },
     ],
     summary:
-      "ReactJS was my first option. I was really interested in built it in ReactJS.",
+      "I was really interested in built it in ReactJS because I wanted speed and that's what ReactJS would offer to me.",
   },
 ];
 
