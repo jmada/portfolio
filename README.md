@@ -132,4 +132,4 @@ Project Link: [https://github.com/jmada/portfolio](https://github.com/jmada/port
 [license-url]: https://github.com/jmada/portfolio/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jmdparedes/
-[product-screenshot]: public/projects/personal_website_home.png
+[product-screenshot]: public/projects/portfolio_home.png
