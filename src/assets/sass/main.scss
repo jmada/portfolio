@@ -745,7 +745,7 @@ input[type="radio"] {
     }
 
     &.right {
-      left: calc(100% + _size(tooltip-margin));
+      left: #{"_size(tooltip-margin) + 100%"};
       top: 50%;
       transform: translateX(0) translateY(-50%);
 
@@ -768,7 +768,7 @@ input[type="radio"] {
 
     &.left {
       left: auto;
-      right: calc(100% + _size(tooltip-margin));
+      right: #{"_size(tooltip-margin) + 100%"};
       top: 50%;
       transform: translateX(0) translateY(-50%);
 
