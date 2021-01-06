@@ -5,6 +5,7 @@ import routes from "./utils/routes/index";
 import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import NotFoundPage from "./pages/404";
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
             />
           );
         })}
+
+        <Route path="*">
+          <NotFoundPage />
+        </Route>
       </Switch>
     </Router>
   );
