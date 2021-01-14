@@ -42,6 +42,10 @@ $size-header: 23em;
 // Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 html {
   box-sizing: border-box;
+
+  &:focus-within {
+    scroll-behavior: smooth;
+  }
 }
 
 *,
