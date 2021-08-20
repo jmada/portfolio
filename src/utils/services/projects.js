@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     link: {
-      href: "https://aisforartisan.org/",
+      href: "#",
     },
     image: {
       src: "/projects/demos/a_is_for_artisan_demo.gif",
