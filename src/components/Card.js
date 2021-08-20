@@ -9,17 +9,24 @@ export default function Card({
   technologies,
   summary,
 }) {
+  let innerTitle;
+  if (link.href) {
+    innerTitle = (
+      <a href={link.href} rel="noreferrer" target="_blank">
+        {title}
+      </a>
+    );
+  } else {
+    innerTitle = title;
+  }
+
   return (
     <article key={id}>
       <a href={link.href} className="image" rel="noreferrer" target="_blank">
         <img src={image.src} alt={image.alt} />
       </a>
       <div className="inner">
-        <h4>
-          <a href={link.href} rel="noreferrer" target="_blank">
-            {title}
-          </a>
-        </h4>
+        <h4>{innerTitle}</h4>
         <p>{description}</p>
 
         <h5>Technologies I've used: </h5>
