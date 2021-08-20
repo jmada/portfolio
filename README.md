@@ -110,7 +110,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Juan Paredes - [@disorderexe](https://twitter.com/disorderexe) - jmparedes@posteo.net
+Juan Paredes - jmparedes@posteo.net
 
 Project Link: [https://github.com/jmada/portfolio](https://github.com/jmada/portfolio)
 
