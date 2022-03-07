@@ -43,7 +43,7 @@ const projects = [
   {
     id: 2,
     link: {
-      href: "https://rplogistics.com.py/",
+      href: false,
     },
     image: {
       src: "/projects/demos/rplogistics_demo.gif",
