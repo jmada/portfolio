@@ -29,11 +29,7 @@ export default function About() {
               </p>
             </header>
             <p>
-              I like working on Web Development Projects, I have 4 years
-              experience working as Web Developer, creating landing pages,
-              administration systems (web based), API REST, e-Commerce and other
-              projects that involves Web Development. For fun I love traveling,
-              reading and working on amazing projects.
+				I like working on Web Development Projects. I have 5+ years of experience working as a Web Developer, creating landing pages, administration systems (web-based), API REST, e-commerce, and other web development projects. For fun, I love traveling, reading, and working on unique projects.
             </p>
           </div>
         </animated.section>
