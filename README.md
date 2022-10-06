@@ -110,7 +110,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Juan Paredes - jmparedes@posteo.net
+Juan Paredes - juan.paredes.bernal@gmail.com
 
 Project Link: [https://github.com/jmada/portfolio](https://github.com/jmada/portfolio)
 
