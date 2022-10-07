@@ -55,7 +55,7 @@ export default function SocialIcon() {
       <li>
         <Tooltip tip="Resume">
           <a
-            href={`${REACT_APP_RESUME_URL}/export?format=pdf`}
+            href={`${REACT_APP_RESUME_URL}/view`}
             className="icon"
             target="_blank"
             rel="noopener noreferrer"
