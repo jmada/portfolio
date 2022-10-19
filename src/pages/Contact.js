@@ -10,7 +10,7 @@ import validate from "../utils/validations/ContactFormRules";
 const {
   REACT_APP_EMAILJS_SERVICE_ID,
   REACT_APP_EMAILJS_TEMPLATE_ID,
-  REACT_APP_EMAILJS_USER_ID,
+  REACT_APP_EMAILJS_PUBLIC_KEY,
 } = process.env;
 
 export default function Contact() {
@@ -50,7 +50,7 @@ export default function Contact() {
         REACT_APP_EMAILJS_SERVICE_ID,
         REACT_APP_EMAILJS_TEMPLATE_ID,
         templateParams,
-        REACT_APP_EMAILJS_USER_ID
+        REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then(
         function (response) {

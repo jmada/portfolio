@@ -93,7 +93,7 @@ To get a local copy up and running follow these simple steps.
    REACT_APP_RESUME_URL=
    REACT_APP_EMAILJS_SERVICE_ID=
    REACT_APP_EMAILJS_TEMPLATE_ID=
-   REACT_APP_EMAILJS_USER_ID=
+   REACT_APP_EMAILJS_PUBLIC_KEY=
    ```
 6. Start NPM
    ```sh
