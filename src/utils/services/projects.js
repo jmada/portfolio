@@ -5,6 +5,39 @@ const projects = [
       href: false,
     },
     image: {
+      src: "/projects/demos/inventory_system_demo.gif",
+      alt: "InventorySystem - Home Page",
+    },
+    title: "InventorySystem",
+    description:
+      "InventorySystem was made for a local hardware shop. The system has users, categories, products, clients, sales and report sales modules.",
+    technologies: [
+		{
+			id: 1,
+			name: "Semantic HTML5",
+		  },
+		  {
+			id: 2,
+			name: "CSS3",
+		  },
+		  {
+			id: 3,
+			name: "jQuery",
+		  },
+		  {
+			id: 4,
+			name: "PHP",
+		  },
+    ],
+    summary:
+      "The client requested PHP. They wanted PHP because they would maintain the code so it was created with the MVC architectural pattern.",
+  },
+  {
+    id: 2,
+    link: {
+      href: false,
+    },
+    image: {
       src: "/projects/demos/a_is_for_artisan_demo.gif",
       alt: "A is for Artisan - Home Page",
     },
@@ -38,32 +71,7 @@ const projects = [
       },
     ],
     summary:
-      "WordPress was requested by the client. He wanted the ability to change, add and remove content on his site without the need of a developer.",
-  },
-  {
-    id: 2,
-    link: {
-      href: false,
-    },
-    image: {
-      src: "/projects/demos/rplogistics_demo.gif",
-      alt: "RPLogistics - Home Page",
-    },
-    title: "RPLogistics",
-    description:
-      "RPLogistics is a company based in Paraguay that provices logistics services. Also provices rent of forklift, cranes and freight services.",
-    technologies: [
-      {
-        id: 1,
-        name: "WordPress",
-      },
-      {
-        id: 2,
-        name: "PHP",
-      },
-    ],
-    summary:
-      "WordPress was requested by the client. He wanted the ability to change, add and remove content on his site without the need of a developer.",
+      "The client requested WordPress. They wanted the ability to change, add and remove content on their site without the need for a developer.",
   },
   {
     id: 3,
