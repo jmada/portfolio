@@ -2,7 +2,7 @@ const projects = [
   {
     id: 1,
     link: {
-      href: false,
+      href: "https://i.postimg.cc/DyrhFWWd/inventorysystem-demo.gif",
     },
     image: {
       src: "/projects/demos/inventory_system_demo.gif",
@@ -28,6 +28,10 @@ const projects = [
 			id: 4,
 			name: "PHP",
 		  },
+		  {
+			id: 5,
+			name: "MySQL",
+		  },
     ],
     summary:
       "The client requested PHP. They wanted PHP because they would maintain the code so it was created with the MVC architectural pattern.",
@@ -35,7 +39,7 @@ const projects = [
   {
     id: 2,
     link: {
-      href: false,
+      href: "https://i.postimg.cc/c1KYDWKN/a-is-for-artisan-demo.gif",
     },
     image: {
       src: "/projects/demos/a_is_for_artisan_demo.gif",
