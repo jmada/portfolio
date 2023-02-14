@@ -25,6 +25,7 @@ jobs:
     - run: npm install
     - run: npm run build --if-present
     env:
+        CI: false
         REACT_APP_PERSONAL_EMAIL: ${{ secrets.REACT_APP_PERSONAL_EMAIL }}
         REACT_APP_GITHUB_URL: ${{ secrets.REACT_APP_GITHUB_URL }}
         REACT_APP_LINKEDIN_URL: ${{ secrets.REACT_APP_LINKEDIN_URL }}
